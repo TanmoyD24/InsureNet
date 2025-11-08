@@ -13,6 +13,20 @@ A full-stack **regression pipeline** predicting **individual medical insurance c
 
 ---
 
+## ⚙️ Dependencies
+
+The following Python libraries are required to run the notebook and execute the prediction pipeline:
+
+| Library | Purpose | Installation Command |
+| :--- | :--- | :--- |
+| **PyTorch** | Core framework for the Neural Network model. | `pip install torch` |
+| **Pandas** | Data loading and manipulation. | `pip install pandas` |
+| **NumPy** | Numerical operations and array handling. | `pip install numpy` |
+| **Scikit-learn** | Preprocessing (Scaler, Encoder) and metrics. | `pip install scikit-learn` |
+| **Kagglehub** | Downloading the source dataset. | `pip install kagglehub` |
+
+---
+
 ## 🛠️ Project Workflow
 
 The prediction pipeline is fully contained within the `linear_Regression_model.ipynb` notebook and follows these key steps:
